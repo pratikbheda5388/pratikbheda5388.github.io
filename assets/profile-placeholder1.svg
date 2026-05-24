@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Professional portrait placeholder</title>
+  <desc id="desc">A warm minimalist profile placeholder with cultural geometric accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#f8f6f0"/>
+      <stop offset="0.55" stop-color="#efe8d8"/>
+      <stop offset="1" stop-color="#d7a63f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#b85c38"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <g opacity="0.55" fill="none" stroke="#b85c38" stroke-width="3">
+    <circle cx="400" cy="278" r="156"/>
+    <circle cx="400" cy="278" r="110"/>
+    <path d="M400 82v392M204 278h392M262 140l276 276M538 140 262 416"/>
+  </g>
+  <circle cx="400" cy="330" r="135" fill="#17201b"/>
+  <path d="M170 930c25-210 128-330 230-330s205 120 230 330H170Z" fill="#17201b"/>
+  <path d="M250 904c31-128 87-204 150-204s119 76 150 204H250Z" fill="url(#accent)" opacity="0.9"/>
+  <text x="400" y="880" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800" fill="#f8f6f0">YOUR PHOTO</text>
+</svg>
